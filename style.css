@@ -1,0 +1,55 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/jetbrains-mono.min.css");
+
+body {
+    background: #d9dee5;
+}
+
+.topnav {
+    background-color: #d9dee5;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: inline-start;
+    color #d9dee5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:active {
+    color: #d9dee5;
+    background-color: #141812;
+}
+
+div.main {
+    color: #141812;
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+div.title {
+    text-align: center;
+    font-style: bold;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 40px 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+
